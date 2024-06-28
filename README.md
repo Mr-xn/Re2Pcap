@@ -36,7 +36,7 @@ cd Re2Pcap/
 ```
 OR
 ```
-docker run --rm --cap-add NET_ADMIN -p 5000:5000 --name re2pcap amitraut/re2pcap
+docker run -d --cap-add NET_ADMIN -p 5000:5000 --name re2pcap jkxss/re2pcap
 ```
 
 Open `localhost:5000` in your web browser to access Re2Pcap or use [Re2Pcap-cmd](Re2Pcap-cmd) script to interact with Re2Pcap container to get PCAP in current working directory 
